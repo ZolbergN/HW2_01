@@ -37,6 +37,5 @@ int main() {
 		cout << e.what() << endl;
 	}
 
-	system("pause");
 	return 0;
 }
