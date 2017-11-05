@@ -1,7 +1,4 @@
-## Laboratory work V
-
-[![Build Status](https://travis-ci.org/ZolbergN/lab5.svg?branch=master)](https://travis-ci.org/ZolbergN/lab5)
-Данная лабораторная работа посвещена изучению систем непрерывной интеграции на примере сервиса **Travis CI**
+[![Build Status](https://travis-ci.org/ZolbergN/HW2_01.svg?branch=master)](https://travis-ci.org/ZolbergN/HW2_01)
 
 ## Проект Explorer (I этап)
 
