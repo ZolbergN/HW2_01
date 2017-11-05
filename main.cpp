@@ -10,9 +10,9 @@ int main() {
 
 	try {
 		string address;
-		cout << endl
-			<< "Укажите путь к файлу:" << endl
-			<< "Пример: 'explorer/file.dat' " << endl << endl;
+		cout << endl;
+		cout << "Укажите путь к файлу:" << endl;
+		cout << "Пример: 'explorer/file.dat' " << endl << endl;
 		cout << "Ввод:\t";
 		cin >> address;
 
