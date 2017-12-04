@@ -2,8 +2,8 @@
 #include <iostream>
 #include <cstring>
 
-using namespace std; // namespace std
-namespace fs = experimental::filesystem; // namespace fs
+using namespace std;
+namespace fs = experimental::filesystem;
 
 int main() {
    setlocale(LC_ALL, "rus");
