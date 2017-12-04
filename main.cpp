@@ -30,7 +30,6 @@ int main() {
         std::cout << textFilename << std::endl;
         std::cout << (double(fs::file_size(filePath)) / 1000) << " Kb";
         std::cout << std::asctime(std::localtime(&cftime));
-
 }
 catch (const std::exception& e) {
         std::cout << e.what() << std::endl;
