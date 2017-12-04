@@ -27,9 +27,9 @@ int main() {
         time_t cftime = decltype(ftime)::clock::to_time_t(ftime);
 
         std::cout << std::endl;
-        std::cout << "name:\t\t" << textFilename << std::endl;
-        std::cout << "size:\t\t" << (double(fs::file_size(filePath)) / 1000) << " Kb";
-        std::cout << "date_mod:\t" << std::asctime(std::localtime(&cftime));
+        std::cout << textFilename << std::endl;
+        std::cout << (double(fs::file_size(filePath)) / 1000) << " Kb";
+        std::cout << std::asctime(std::localtime(&cftime));
 
 }
 catch (const std::exception& e) {
