@@ -9,7 +9,7 @@ int main() {
    setlocale(LC_ALL, "rus");
 
    try {
-	string address;
+	   string address;
 	cout << endl;
 	cout << "Укажите путь к файлу:" << endl;
 	cout << "Пример: 'explorer/file.dat' " << endl << endl;
