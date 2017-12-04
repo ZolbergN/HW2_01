@@ -5,7 +5,7 @@
 namespace fs = experimental::filesystem;
 
 int main() {
-   setlocale(LC_ALL, "rus");
+    setlocale(LC_ALL, "rus");
 
     try {
         string address;
