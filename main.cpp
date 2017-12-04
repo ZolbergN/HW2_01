@@ -28,7 +28,8 @@ int main() {
 
         std::cout << std::endl;
         std::cout << "name:\t\t" << textFilename << std::endl;
-        std::cout << "size:\t\t" << (double(fs::file_size(filePath)) / 1000) << " Kb" << std::endl;
+        std::cout << "size:\t\t" << (double(fs::file_size(filePath)) / 1000) << " Kb" 
+           << std::endl;
         std::cout << "date_mod:\t" << std::asctime(std::localtime(&cftime)) 
            << std::endl;
 
